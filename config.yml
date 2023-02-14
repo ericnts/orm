@@ -1,0 +1,29 @@
+db:
+  master:
+    dialector: sqlite
+    path: test_db.db
+
+#    dialector: sqlserver
+#    username: sa
+#    password: eps!@#$1234
+#    host: 127.0.0.1:1433
+#    rawQuery: database=epsfrontserver
+
+#    dialector: mysql
+#    username: airobot
+#    password: i3o3aFYUPr
+#    host: 192.168.6.101:3306
+#    path: airobot_dev
+#    rawQuery: charset=utf8&parseTime=True&loc=Local
+#    maxOpen: 100
+#    maxIdle: 10
+
+#  slave:
+#    dialector: mysql
+#    username: airobot
+#    password: i3o3aFYUPr
+#    host: 192.168.6.102:3306
+#    path: airobot_dev
+#    rawQuery: charset=utf8&parseTime=True&loc=Local
+#    maxOpen: 100
+#    maxIdle: 10

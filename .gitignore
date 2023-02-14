@@ -1,0 +1,8 @@
+.idea
+logs
+tmp
+.DS_Store
+/logs
+/tmp
+*.sum
+*.db
